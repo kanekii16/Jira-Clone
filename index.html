@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    <p>Note :
+        The edit function has a problem on press enter there is new line being added to the issue box just scroll up to see edited value :) thank You !
+    </p>
+    <section class="section">
+
+        <div class="container" id="to-do">
+            <p>To Do</p>
+            <button id="createIssue" class="fr-ac onHover"><span class="material-symbols-outlined">add</span> Create Issue</button>
+           
+            <input id="text-Area" placeholder="What needs to be done ?" class="text-area hide"  rows="6"></input>
+
+            <!-- <div class="card">
+                
+                
+            </div> -->
+           
+            
+        </div>
+
+        <div class="container" id="in-progress">
+            <p>In Progress</p>
+            
+        </div>
+
+        <div class="container" id="completed">
+            <p>Done</p>
+        </div>
+
+
+    </section>
+
+    
+    
+
+
+    <script src="script.js"></script>
+    <script src="drag.js"></script>
+</body>
+</html>
